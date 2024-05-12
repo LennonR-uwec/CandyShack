@@ -1,0 +1,203 @@
+nav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#73bd15 ;
+}
+nav a{
+    display: inline-block;
+    width: 120px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 20%;
+    text-align: center;
+    line-height: 60px;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: #c43983;
+}
+main{
+    background-color: #73bd15;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.home-images img{
+border: 3px solid black;
+border-radius: 10px;
+width: 220px;
+height: 230px;
+margin: 0 15px;
+}
+.home-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.donate{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    line-height: 10px;
+    margin: 10px 50px;
+    text-decoration: none;
+    color: black;
+    background-color: #c43983;
+    border: 3px solid black;
+    border-radius: 30px;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #73bd15
+}
+.about{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    line-height: 22px;
+    margin: 10px 50px;
+    text-decoration: none;
+    color: black;
+    background-color: #c43983;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.footer{
+    background-color: #73bd15;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+}
+.contact-info p{
+margin: 0;
+text-align: center;
+}
+.contact-media{
+    display: flex;
+    margin: 5px;
+}
+.contact-media img{
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+}
+.separator{
+    border: none;
+    border-top: solid black;
+    background-color: #73bd15;
+    margin: 0;
+}
+.shop img{
+border: 3px solid black;
+border-radius: 10px;
+width: 390px;
+height: 230px;
+margin: 0 15px;
+}
+.shop h1{
+    text-align: center;
+}
+.shop{
+    display: inline-block;
+    margin-left: 30px;
+}
+.hours{
+    text-align: center;
+}
+body{
+    background-color: #73bd15;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.item{
+flex-basis: 20%;
+margin-bottom: 20px;
+}
+.item img{
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+@media (min-width:1000px){
+    nav{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    nav a{
+        display: inline-block;
+        width: 220px;
+        height: 90px;
+        border: 3px solid black;
+        line-height: 90px;
+        font-size: 50px;
+    }
+    .home-images img{
+        border: 3px solid black;
+        border-radius: 10px;
+        width: 440px;
+        height: 460px;
+        }
+        .home-images{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .donate{
+            width: 1300px;
+            height: 70px;
+            line-height: 0px;
+            margin: 10px 50px;
+            font-size: 30px;
+        }
+        .about{
+            text-align: center;
+            display: inline-block;
+            width: 1300px;
+            height: 220px;
+            text-align: center;
+            line-height: 35px;
+            margin: 10px 50px;
+            font-size: 30px;
+        }
+        .footer{
+            justify-content: space-evenly;
+        }
+        .contact-info p{
+            font-size: 20px;
+        }
+        .contact-media img{
+            width: 50px;
+            height: 50px;
+            margin-left: 80px;
+        }
+        .shop img{
+            width: 750px;
+            height: 300px;
+        }
+        .item{
+            flex-basis: 20%;
+            margin-bottom: 100px;
+            }
+            .hours h1{
+                font-size: 50px;
+                line-height: 10px;
+            }
+            .hours p{
+                font-size: 35px;
+                line-height: 20px;
+            }
+}
